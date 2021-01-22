@@ -30,6 +30,14 @@ section img {
 section.fullscreen img {
     width: 100%;
 }
+section.rightalign {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+section.rightalign img {
+    width: auto;
+}
 section#p1 {
     -webkit-box-align: end;
     -ms-flex-align: end;
