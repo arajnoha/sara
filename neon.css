@@ -27,7 +27,7 @@ section img {
    -o-object-fit: cover;
        object-fit: cover
 }
-section.fullscreen img {
+section.fullscreen > img {
     width: 100%;
 }
 section.rightalign {
@@ -71,18 +71,36 @@ section#p1 .pall_sd {
     cursor: pointer;
 }
 .nav > img {
-    width: 50px !important;
+    width: 32px !important;
 }
 .nav ul {
     display: none;
     position: absolute;
-}
-.nav ul li img {
-    height: 30px;
 }
 .nav ul li {
     list-style: none;
 }
 .nav:hover ul {
     display: block;
+}
+section.row ul a {
+    display: inline-block;
+    float: right;
+}
+
+img[src="phin/gp1.png"],img[src="phin/gp1h.png"] {height: 30px}
+img[src="phin/gp2.png"],img[src="phin/gp2h.png"] {height: 28px}
+img[src="phin/gp3.png"],img[src="phin/gp3h.png"] {height: 30px}
+img[src="phin/gp4.png"],img[src="phin/gp4h.png"] {height: 21px}
+img[src="phin/gp5.png"],img[src="phin/gp5h.png"] {height: 23px}
+img[src="phin/gp6.png"],img[src="phin/gp6h.png"] {height: 26px}
+img[src="phin/gp7.png"],img[src="phin/gp7h.png"] {height: 28px}
+img[src="phin/gp8.png"],img[src="phin/gp8h.png"] {height: 28px}
+img[src="phin/gp9.png"],img[src="phin/gp9h.png"] {height: 32px}
+img[src="phin/gp10.png"],img[src="phin/gp10h.png"] {height: 27px}
+img[src="phin/gp11.png"],img[src="phin/gp11h.png"] {height: 23px}
+img[src="phin/gp12.png"],img[src="phin/gp12h.png"] {height: 30px}
+
+section.small ul a img {
+    height: 18px;
 }
