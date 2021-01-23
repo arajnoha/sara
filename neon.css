@@ -70,7 +70,7 @@ section#p1 .pall_sd {
 .nav:hover {
     cursor: pointer;
 }
-.nav > img {
+.nav > a img {
     width: 32px !important;
 }
 .nav ul {
